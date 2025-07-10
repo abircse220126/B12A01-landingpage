@@ -1,0 +1,25 @@
+ /* body *{
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;      
+ } */
+ .nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+ }
+ .Logo{
+    width: 130px;
+    height: 120px;
+ }
+ .button-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px; 
+    padding: 12px;
+}
+
+
