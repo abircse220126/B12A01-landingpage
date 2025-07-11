@@ -27,6 +27,11 @@
     font-size: 25px; 
     padding: 12px;
 }
+.button-primary:hover{
+   background-color: yellow;
+}
+
+
 .banner{
    width: 1000px;
    height: 427px;
@@ -226,4 +231,34 @@
    width: 505px;
    height: 62px;
    margin-top: 15px;
+}
+.footer-section{
+   width: 2540px;
+   height: 428px;
+} 
+.logo-size{
+   width: 250px;
+   height: 220px;
+   padding-left: 1150px;
+}
+.footer-paragraph{
+   text-align: center;
+   color: #8987A1;
+   font-size: 28px;
+}
+.list-section{
+   height: 24px;
+   width: 480px;
+   margin: 0 auto;
+}
+
+
+.list-items{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+}
+.list-item{
+   font-size: 24px;
+   color: #8987A1;
 }
