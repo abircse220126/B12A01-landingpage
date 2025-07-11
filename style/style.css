@@ -1,8 +1,8 @@
- /* body *{
+ body *{
     border-width: 1px;
     border-color: red;
     border-style: solid;      
- } */
+ }
  .background-header{
    background-image:url('../assets/Hero-bg.png');
    /* width: 1000px;
@@ -68,9 +68,90 @@
    height: 300px;
    border-radius: 20px;
 }
+.productive-user{
+  /* text-align: center; */
+   /* height: 287px;
+   width: 1140px; */
+    width: 1280px;
+   height: 400px;
+   margin: 0 auto;
+   background-color:#4E47FF24; 
+}
+/* .paragraph-review{
+   height: 230px;
+   width: 1000px;
+   background-color:aqua ;
+   margin: 105px 130px;
+} */
+.paragraph{
+   font-size: 38px;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 40px;
+}
+.reviews{
+   display: flex;
+   justify-content:space-between;
+   padding-right: 140px;
+   padding-left: 140px;
+   align-items: start;
+   /* padding-bottom: 50px; */
+}
+.review{
+   text-align:center;
+   align-items: start;
+}
+.heading{
+   font-size: 70px;
+}
 
+.feedback-section {
+    width: 1280px;
+   height: 400px;
+   /* background-color: #4E47FF; */
+   margin: 0 auto;
+   padding-top: 20px;
+   margin-top: 120px;
 
+}
+.feedback-heading{
+   font-size: 42px;
+   font-weight: bold;
+   text-align: center;
+}
+.feedback{
+   height: 280px;
+   width: 1280px; 
+   display: flex;
+   justify-content: space-between;
+}
+.total-feedback{
+   width: 366px;
+   height: 280px;
+}
+.title{
+   font-size: 26px;
+} *
+.description{
+   font-size: 16px;
+} 
 
-
-
-
+.star{
+   height: 20.5px;
+   width: 22.7px;
+   white-space:10px ;
+}
+.profile{
+   height: 40px;
+   width: 40px;
+}
+.image-rev-name{
+   display: flex;
+   align-items: center;
+}
+.r-title{
+   color: #757575;
+}
+.r-title-des{
+   align-items:start;
+}
