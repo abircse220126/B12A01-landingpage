@@ -128,6 +128,9 @@
 .total-feedback{
    width: 366px;
    height: 280px;
+   border-radius: 20px;
+   background-color: #FFFFFF50;
+   padding-left: 5px;
 }
 .title{
    font-size: 26px;
@@ -154,4 +157,73 @@
 }
 .r-title-des{
    align-items:start;
+}
+.extra{
+   height: 700px;
+   width: 1280px;
+   margin: 0 auto;
+   margin-top: 120px;
+   background-color: #FFFFFF50;
+   border-radius: 20px;
+}
+.e-heading{
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+   /* padding: 60px; */
+   color: #000000;
+   margin-top: 60px;
+}
+.e-description{
+   text-align: center;
+   color: #000000;
+}
+.e-button{
+   /* text-align: center; */
+   margin: 0 auto;
+   margin-left: 550px;
+}
+.industry-img{
+   width: 884px;
+   height: 364px;
+   border-radius: 20px;
+   margin-left: 190px;
+   margin-top: 25px;
+}
+.touch-section{
+   height: 632px;
+   width: 1280px;
+   margin: 0 auto;
+   margin-top: 92.33px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+.touch-p{
+   width: 528px;
+   height: 332px;
+}
+.t-para{
+   font-size: 97px;
+   font-weight: bold;
+}
+.input-field{
+   height: 70px;
+   width: 497px;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+.label-section{
+   font-size: 28px;
+   font-weight: 600;
+}
+.m-field{
+   width: 497px;
+   height: 135px;
+   border-radius: 10px;
+}
+.button{
+   width: 505px;
+   height: 62px;
+   margin-top: 15px;
 }
