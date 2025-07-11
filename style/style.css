@@ -3,6 +3,12 @@
     border-color: red;
     border-style: solid;      
  }
+ .raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
  .background-header{
    background-image:url('../assets/Hero-bg.png');
    /* width: 1000px;
