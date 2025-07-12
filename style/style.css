@@ -3,6 +3,14 @@
     border-color: red;
     border-style: solid;      
  } */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
  .header-section{
   background-image: url('../assets/Hero-bg.png');
    width: 100%;
@@ -72,7 +80,7 @@
 }
 .productive-user-section{
    width: 1140px;
-   height: 387px;
+   height: 410px;
    margin: 0 auto;
    margin-top: 100px;
    background-color:#4E47FF24 ;
@@ -87,6 +95,8 @@
 .pro-sec-list{
   display: flex;
   justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
 
 }
 .review-list{
@@ -95,6 +105,7 @@
   border-radius: 10px;
   padding-left: 5px;
   padding-top: 5px;
+  background-color: #FFFFFF;
 }
 .star-icon{
   width: 16.67px;
@@ -189,3 +200,34 @@
   justify-content: space-around;
   list-style-type: none;
 }
+.another-productive{
+  width: 1140px;
+  height: 287px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-color: #4E47FF24;
+}
+.another-productive-paragraph{
+  font-size: 38px;
+  font-weight:bold;
+  text-align: center;
+  padding-top: 15px;
+}
+.ul-review{
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+/* .ul-users{
+  display: flex;
+  font-size:20px;
+  list-style-type: none;
+  justify-content: space-around;
+} */
+ span{
+  font-size:20px ;
+  color: #00000050;
+ }
